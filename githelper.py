@@ -8,7 +8,7 @@ Used to operate git in a short hand with these options:
 
 BEWARE OF THE ORDER OF OPTIONS!
 
--a\t\t->\tAdd .
+-a\t\t->\tAdd --all
 
 -c <comment>\t->\tcommit with comment message
 
@@ -67,7 +67,7 @@ def main(argv=None):
 
 def gadd():
     print "=" * 10
-    os.system("git add .")
+    os.system("git add --all")
     print "Added everything to stash."
 
 def gcommit(value):
