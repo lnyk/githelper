@@ -11,7 +11,7 @@ Just put the main script file (githelper.py) in your $PATH and call it.
 
 ## Options
 * -a           : git add --all
-* -c <comment> : git commit -m "<comment>"
+* -c <comment> : git commit -m "comment"
 * -p           : git push
 * -s           : git status
 * -C <comment> : run all the 4 commands above for you.
