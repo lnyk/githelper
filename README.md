@@ -10,7 +10,7 @@ A simple python script to operate GIT in a short hand.
 Just put the main script file (githelper.py) in your $PATH and call it.
 
 ## Options
-* -a           : git add .
+* -a           : git add --all
 * -c <comment> : git commit -m "<comment>"
 * -p           : git push
 * -s           : git status
